@@ -26,7 +26,7 @@ library(dplyr)
 library(pROC)
 library(Hmisc)
 #working dir
-data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/"
+data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/" #local dir
 load(paste0(data.folder,"maryland_fatal_data.RData"))
 cov.dataframe<-data.frame(death=data.join$death,
                           date=data.join$date,
