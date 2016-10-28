@@ -12,8 +12,8 @@ library(splines)
 library(dplyr)
 library(pROC)
 library(Hmisc)
-data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/"
-load(paste0(data.folder,"maryland_fatal_data.RData"))
+#data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/"
+load("data/maryland_fatal_data.RData")
 ```
 
 ##1. Fatal cases summary in Maryland

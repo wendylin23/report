@@ -15,8 +15,8 @@ library(Hmisc)
 #pos.file.name<-"[Aa][Cc][Cc][Ii][Dd][Ee][Nn][Tt][:punct:][Dd][Bb][Ff]"
 
 #working dir
-folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/" 
-
+#folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/" 
+folder<-"data/"
 #load data
 state.number=24
 data.folder<-"FARS2010/"

@@ -26,8 +26,9 @@ library(dplyr)
 library(pROC)
 library(Hmisc)
 #working dir
-data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/" #local dir
-load(paste0(data.folder,"maryland_fatal_data.RData"))
+#data.folder<-"/Users/wendylin/Documents/AD/traffic_fatality/data/" #local dir
+#load(paste0(data.folder,"maryland_fatal_data.RData"))
+load("data/maryland_fatal_data.RData")
 cov.dataframe<-data.frame(death=data.join$death,
                           date=data.join$date,
                           age=data.join$AGE,
@@ -206,8 +207,7 @@ Notificaiton time is the time we used to inform the emergency medical service af
 ```{r, echo=FALSE, message=FALSE, warning=FALSE,fig.align='center',out.width="0.5\\linewidth",fig.height=5,fig.width=9,fig.pos="!h",dev='tikz',sanitize=TRUE}
 library(survival)
 library(survminer)
-
-load(paste0(data.folder,"nation_survival_data.RData"))
+load("data/nation_survival_data.RData")
 lagtime_cuts<-cut2(arr.not.data$lag,cuts = c(10,100))
 arr.not.data$lagtime_cuts<-factor(lagtime_cuts,
                                          levels = levels(lagtime_cuts),
