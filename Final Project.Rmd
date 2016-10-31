@@ -8,12 +8,12 @@ output: pdf_document
 ## Introduction
 Every day, nearly 100 people die from vehicle-related accidents. From 2010 to 2015, there are 2912 people died in 2699 fatal traffic accidents in Maryland. Basically, traffic accidents are unavoidable, however, it is possible that we face the fact and protect ourselves. Thus, we would like to know what factors could have impact on a severe accident which might cause fatality. And also, if a possibaly fatal accident happens, do we have any chance to prolong our lives, and even, save our lives.
 
-Fatal risk could include personal chracters (age, sex, position), time factors (season, time of the day)^[2], driving behaviours (drunk, safety measurement) and environmental dectription (location). Each of these factors could be a potential threat to our safety and they could also work interactively. Here we fit a logistic model^[2] to figure out their causality and relationship.
+Fatal risk could include personal chracters (age, sex, position), time factors (season, time of the day)$^2$, driving behaviours (drunk, safety measurement) and environmental dectription (location). Each of these factors could be a potential threat to our safety and they could also work interactively. Here we fit a logistic model$^2$ to figure out their causality and relationship.
 
-Once a serious traffic accident happens, the response and rescue from hospitals would be the last hope to save the live. Response time and arriving time at the scene would be the first concern to construct a survival model.
+Once a serious traffic accident happens, the response and rescue from hospitals would be the last hope to save the live. Response time and arriving time at the scene$^3$ would be the first concern to construct a survival model.
 
 ## Data Description
-Data was compiled using the 2010-2015 Fatality Analysis Reporting System (FARS) data^[1]. We use Maryland fatality data extracted from the big data set to analyze risks in fatal traffic accidents within this state. Missing data related with age, death time was eliminated from analysis. Due to large volumn of missing data with medical service time records, thus, we applied survival analysis on nationwide dataset and used available medical sevice time variables.
+Data was compiled using the 2010-2015 Fatality Analysis Reporting System (FARS) data$^1$. We use Maryland fatality data extracted from the big data set to analyze risks in fatal traffic accidents within this state. Missing data related with age, death time was eliminated from analysis. Due to large volumn of missing data with medical service time records, thus, we applied survival analysis on nationwide dataset and used available medical sevice time variables.
 
 ## Statistical Methods
 ### 1. Logistic Model
