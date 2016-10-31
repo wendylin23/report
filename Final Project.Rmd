@@ -78,7 +78,7 @@ grid.arrange(p.as,p.ds,ncol=2)
 
 ```
 
-We made plots to show the effect of possible risk factors. Basically, death rate is higher when the accident is happened at rush hour (7-10 am, 4-7pm) on weekdays between May to October. Accidents happened at rural area are likely to have dead case compared with that at urban area. Drivers are relatively to be treatened by death among all accident-relevant types of people(passenger, pedestrian, Bicyclist, other) and in fact, almost 99.5% of fatal cases happened in the car. And apparently, using seat belt could decrease the death probability. Based on our findings, we would like to consider cases only include over-16-year individuals to confirm the possibility of being a driver.
+We made plots to show the effect of possible risk factors. Drivers are relatively to be threatened by death among all accident-relevant types of people(passenger, pedestrian, Bicyclist, other). Basically, death rate is higher when the accident is happened at rush hour (7-10 am, 4-7pm) on weekdays between May to October. Accidents happened at rural area are likely to have dead cases compared with that at urban area. And apparently, using seat belt could decrease the death probability. Based on our findings, we would like to consider cases only include over-16-year individuals to confirm the possibility of being a driver.
 
 Logistic model is favorable when analyzing binary data. Based on our preliminary data analysis, we could construct a simple logistic model.
 
